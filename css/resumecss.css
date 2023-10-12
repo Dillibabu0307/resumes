@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first a {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 600px 1250px;
+}
+.content1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+.menubar {
+    display: none;
+}
+.left {
+    width: 50%;
+    color: lime;
+}
+span {
+    color: lime;
+}
+.right {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+    column-gap: 30px;
+    font-size: 15px;
+}
+.right a:hover {
+    background-color: lime;
+    color: antiquewhite;
+    padding: 5px;
+}
+.right a {
+    text-decoration: none;
+    color: black;
+}
+.content2 {
+    background-image: url(../image/alnatura-1366x768.jpg);
+    height: 100vh;
+    padding: 200px 0;
+    margin: auto;
+    text-align: center;
+    color: antiquewhite;
+}
+.content2 a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px;
+    background-color: lime;
+}
+.name {
+    margin-top: 50px;
+}
+.content3 {
+    margin: 50px 0 50px ;
+}
+.row1 {
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.row2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    column-gap: 50px;
+}
+.left1 {
+    width: 60%;
+}
+.right1 {
+    width: 40%;
+    height: fit-content;
+    background-color: blue;
+    margin: auto;
+}
+.right1 img {
+    width: 100%;
+}
+.logoimg {
+    width: 20px;
+    display: flex;
+    padding: 10px 0;
+    margin: 0 130px;
+}
+.logoimg img {
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.profile div {
+    position: relative;background-color: blue;
+}
+.row3 {
+    display: flex;
+    margin-top: 30px;
+    border-top: 1px solid;
+}
+.row3 nav {
+    width: 33.33333%;
+    margin-top: 30px;
+}
+.content4 {
+    background-color: rgb(224, 218, 218);
+    padding: 30px 0;
+}
+.line1 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(196, 189, 189);
+}
+.line2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    column-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: antiquewhite;
+}
+.column1,.column2 {
+    width: 50%;
+    background-color: darkslateblue;
+}
+.line2 nav {
+    padding: 10px 0 10px 10px;
+}
+.content5 {
+    border-bottom: 1px solid rgb(196, 189, 189);
+}
+.skill {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(196, 189, 189);
+}
+.rows {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    column-gap: 50px;
+    padding-bottom: 50px;
+    
+}
+.left2,.right2 {
+    width: 50%;
+}
+.progress {
+    display: flex;
+    color: deeppink;
+    margin-bottom: 10px;
+}
+.html {
+    margin-bottom: 10px;
+}
+.progress nav {
+    margin-left: 20px;
+}
+progress {
+    width: 100%;
+    height: 15px;
+    margin: auto;
+}
+.top {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(196, 189, 189);
+}
+.bottom {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0 50px 0;
+}
+.bottom img {
+    width: 100%;
+    height: 100%;
+}
+.start,.end {
+    width: 33.33333%;
+}
+.start nav ,.end nav {
+    width: 100%;
+    height: 240px;
+}
+.start .row,.end .row {
+    margin-bottom: 20px;
+}
+.center {
+    width: 33.33333%;
+    margin: 0 20px 0 20px;
+}
+.center nav {
+    width: 100%;
+    height: 500px;
+}
+.content7 {
+    background-color: rgb(224, 218, 218);   
+}
+.top2 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(196, 189, 189);
+    border-top: 1px solid rgb(196, 189, 189);
+}
+.bottom2 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0 50px 0;
+    column-gap: 50px;
+}
+.left3,.right3{
+    width: 50%;
+}
+.input1 {
+    display: flex;
+    column-gap: 20px;
+}
+.input1 input {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+.input2 input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+.input3 input {
+    width: 100%;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+.left3 button {
+    width: 100%;
+    height: 50px;
+    background-color: lime;
+    border-style: none;
+    color: antiquewhite;
+}   
+.right3 img {
+    width: 30px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 5px;
+}
+.right3 h3 {
+    margin: 0;
+}
+.content8 {
+    text-align: center;
+    padding: 50px;
+}
+@media(max-width:576px) {
+    .first a {
+        margin: 980px 250px;
+    }
+    .right {
+        display: none;
+    }
+    .left,.menubar {
+        width: 50%;
+        margin: auto;
+    }
+    .menubar {
+        display: block;
+    }
+    .dropdown a {
+        text-decoration: none;
+        display: none;
+    }
+    .dropdown {
+        text-align: center;
+        width: fit-content;
+        border-style: none;
+        margin-left: auto;
+    }
+    .menu {
+        background-color: lime;
+        color: antiquewhite;
+        padding: 5px;
+    }
+    .dropdown:hover.dropdown a {
+        display: block;
+        background-color: aqua;
+        color: black;
+        border-style: none;
+    }
+    .content2 {
+        width: 100%;
+        height: 70vh;
+    }
+    .content3 {
+        width: 100%;
+    }
+    .row2 {
+        display: block;
+    }
+    .left1,.right1 {
+        width: 100%;
+    }
+    .row3 {
+        display: block;
+    }
+    .row3 nav {
+        width: 100%;
+    }
+    .content4 {
+        width: 100%;
+    }
+    .line2 {
+        display: block;
+    }
+    .column1,.column2 {
+        width: 100%;
+    }
+    .column1 {
+        margin-bottom: 10px;
+    }
+    .content5 {
+        width: 100%;
+    }
+    .rows {
+        display: block;
+    }
+    .left2,.right2 {
+        width: 100%;
+    }
+    .content6 {
+        width: 100%;
+    }
+    .bottom {
+        display: block;
+    }
+    .start,.center,.end {
+        width: 100%;
+    }
+    .center {
+        margin: 20px 0 20px 0;
+    }
+    .content7 {
+        width: 100%;
+    }
+    .bottom2 {
+        display: block;
+    }
+    .left3,.right3 {
+        width: 100%;
+    }
+    .left3 {
+        margin-bottom: 30px;
+    }
+}
